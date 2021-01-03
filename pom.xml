@@ -24,14 +24,14 @@
 
     <modules>
         <module>CombatTagPlusCompat-API</module>
-        <module>CombatTagPlusCompat-v1_12_R1</module>
-        <module>CombatTagPlusCompat-v1_13_R2</module>
-        <module>CombatTagPlusCompat-v1_14_R1</module>
-        <module>CombatTagPlusCompat-v1_15_R1</module>
-        <module>CombatTagPlusCompat-v1_16_R1</module>
+<!--        <module>CombatTagPlusCompat-v1_12_R1</module>-->
+<!--        <module>CombatTagPlusCompat-v1_13_R2</module>-->
+<!--        <module>CombatTagPlusCompat-v1_14_R1</module>-->
+<!--        <module>CombatTagPlusCompat-v1_15_R1</module>-->
+<!--        <module>CombatTagPlusCompat-v1_16_R1</module>-->
         <module>CombatTagPlusCompat-v1_16_R3</module>
         <module>CombatTagPlusHook</module>
-        <module>CombatTagPlusFactions-v2_7</module>
+<!--        <module>CombatTagPlusFactions-v2_7</module>-->
         <module>CombatTagPlusWG-v7</module>
         <module>CombatTagPlus</module>
     </modules>

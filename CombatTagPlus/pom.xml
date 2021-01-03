@@ -74,36 +74,36 @@
             <version>1.3.3-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>net.minelink</groupId>
-            <artifactId>CombatTagPlusCompat-v1_12_R1</artifactId>
-            <version>1.3.3-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.minelink</groupId>
-            <artifactId>CombatTagPlusCompat-v1_13_R2</artifactId>
-            <version>1.3.3-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-        	<groupId>net.minelink</groupId>
-        	<artifactId>CombatTagPlusCompat-v1_14_R1</artifactId>
-        	<version>1.3.3-SNAPSHOT</version>
-        	<scope>compile</scope>
-        </dependency>
-        <dependency>
-        	<groupId>net.minelink</groupId>
-        	<artifactId>CombatTagPlusCompat-v1_15_R1</artifactId>
-        	<version>1.3.3-SNAPSHOT</version>
-        	<scope>compile</scope>
-        </dependency>
-        <dependency>
-        	<groupId>net.minelink</groupId>
-        	<artifactId>CombatTagPlusCompat-v1_16_R1</artifactId>
-        	<version>1.3.3-SNAPSHOT</version>
-        	<scope>compile</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>net.minelink</groupId>-->
+<!--            <artifactId>CombatTagPlusCompat-v1_12_R1</artifactId>-->
+<!--            <version>1.3.3-SNAPSHOT</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>net.minelink</groupId>-->
+<!--            <artifactId>CombatTagPlusCompat-v1_13_R2</artifactId>-->
+<!--            <version>1.3.3-SNAPSHOT</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--        	<groupId>net.minelink</groupId>-->
+<!--        	<artifactId>CombatTagPlusCompat-v1_14_R1</artifactId>-->
+<!--        	<version>1.3.3-SNAPSHOT</version>-->
+<!--        	<scope>compile</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--        	<groupId>net.minelink</groupId>-->
+<!--        	<artifactId>CombatTagPlusCompat-v1_15_R1</artifactId>-->
+<!--        	<version>1.3.3-SNAPSHOT</version>-->
+<!--        	<scope>compile</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--        	<groupId>net.minelink</groupId>-->
+<!--        	<artifactId>CombatTagPlusCompat-v1_16_R1</artifactId>-->
+<!--        	<version>1.3.3-SNAPSHOT</version>-->
+<!--        	<scope>compile</scope>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>net.minelink</groupId>
             <artifactId>CombatTagPlusCompat-v1_16_R3</artifactId>
@@ -116,12 +116,12 @@
             <version>1.3.3-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>net.minelink</groupId>
-            <artifactId>CombatTagPlusFactions-v2_7</artifactId>
-            <version>1.3.3-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>net.minelink</groupId>-->
+<!--            <artifactId>CombatTagPlusFactions-v2_7</artifactId>-->
+<!--            <version>1.3.3-SNAPSHOT</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>net.minelink</groupId>
             <artifactId>CombatTagPlusWG-v7</artifactId>
