@@ -53,7 +53,7 @@
     <repositories>
         <repository>
             <id>byteflux-repo</id>
-            <url>http://repo.byteflux.net/repository/maven-public/</url>
+            <url>https://repo.byteflux.net/repository/maven-public/</url>
         </repository>
         <repository>
             <id>spigot-repo</id>
