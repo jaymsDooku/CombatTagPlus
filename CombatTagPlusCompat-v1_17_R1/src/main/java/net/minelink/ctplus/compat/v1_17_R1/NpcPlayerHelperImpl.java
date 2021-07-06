@@ -133,7 +133,7 @@ public final class NpcPlayerHelperImpl implements NpcPlayerHelper {
         int foodTickTimer;
 
         try {
-            foodTickTimerField = FoodMetaData.class.getDeclaredField("foodTickTimer");
+            foodTickTimerField = FoodMetaData.class.getDeclaredField("d");
             foodTickTimerField.setAccessible(true);
             foodTickTimer = foodTickTimerField.getInt(entity.getFoodData());
         } catch (NoSuchFieldException | IllegalAccessException e) {
