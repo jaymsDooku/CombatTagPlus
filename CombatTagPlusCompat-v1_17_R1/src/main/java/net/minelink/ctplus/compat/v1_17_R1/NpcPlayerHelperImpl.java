@@ -56,20 +56,10 @@ public final class NpcPlayerHelperImpl implements NpcPlayerHelper {
     @Override
     public void despawn(Player player) {
         EntityPlayer entity = ((CraftPlayer) player).getHandle();
-
         if (!(entity instanceof NpcPlayer)) {
             throw new IllegalArgumentException();
         }
-
-        for (Object o : MinecraftServer.getServer().getPlayerList().getPlayers()) {
-            if (!(o instanceof EntityPlayer) || o instanceof NpcPlayer) continue;
-
-            PacketPlayOutPlayerInfo packet = new PacketPlayOutPlayerInfo(PacketPlayOutPlayerInfo.EnumPlayerInfoAction.e, entity);
-            ((EntityPlayer) o).b.sendPacket(packet);
-        }
-
-        WorldServer worldServer = MinecraftServer.getServer().getWorldServer(entity.getWorld().getDimensionKey());
-        worldServer.getChunkProvider().removeEntity(entity);
+        removePlayerList(player);
     }
 
     @Override
@@ -191,10 +181,11 @@ public final class NpcPlayerHelperImpl implements NpcPlayerHelper {
                 if (!(o instanceof NpcPlayer)) continue;
 
                 NpcPlayer npcPlayer = (NpcPlayer) o;
-                PacketPlayOutPlayerInfo packet = new PacketPlayOutPlayerInfo(
-                        PacketPlayOutPlayerInfo.EnumPlayerInfoAction.e, npcPlayer);
+                PacketPlayOutPlayerInfo packet = new PacketPlayOutPlayerInfo(PacketPlayOutPlayerInfo.EnumPlayerInfoAction.e, npcPlayer);
                 p.b.sendPacket(packet);
             }
+            worldServer.getPlayers().removeIf(npc -> npc.getName().equals(p.getName()));
+            worldServer.getChunkProvider().removeEntity(p);
         }
     }
 
