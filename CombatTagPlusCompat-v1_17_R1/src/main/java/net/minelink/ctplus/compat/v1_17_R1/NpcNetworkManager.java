@@ -76,11 +76,6 @@ public final class NpcNetworkManager extends NetworkManager {
     }
 
     @Override
-    public void setCompressionLevel(int i) {
-
-    }
-
-    @Override
     public void handleDisconnection() {
 
     }
